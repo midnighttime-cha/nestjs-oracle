@@ -2,12 +2,12 @@
   "skip": true,
   "name": "oracle",
   "type": "oracle",
-  "host": "178.128.112.25",
+  "host": "[IP]",
   "port": 1521,
   "sid": "xe",
-  "username": "DBA$_DNP_NPS",
-  "password": "npsnpd",
-  "database": "DBA$_DNP_NPS",
+  "username": "[USERNAME]",
+  "password": "[PASSWORD]",
+  "database": "[DATABASE]",
   "entities": [
     "dist/**/*.entity{.ts,.js}"
   ],
